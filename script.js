@@ -119,7 +119,7 @@ const show1 = ()=>{
 }
 const show7 = ()=>{
   obj = ""
-  let capital = "Antananarivo"
+  let capital = "Rome"
   let ItalyNote = "Italy, known for its rich history, art, and cuisine, is a Mediterranean gem. Home to iconic landmarks like the Colosseum and Venice, it blends cultural splendor with breathtaking landscapes."
   let ItalyFlag = `<img width="300" src="https://imgs.search.brave.com/lcfEmUG4Bje5PPJv5lYW2HMe_Fise777jJMPyscNhuM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzYyLzE4LzY0/LzM2MF9GXzYyMTg2/NDc3X3RQY0Nrb1E1/WXUzQVRsdW1xeHgw/ODZtTG9BandOSHM2/LmpwZw"></img>`
   let Italy = new country("Italy", ItalyFlag, ItalyNote,capital)
