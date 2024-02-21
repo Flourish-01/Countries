@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background: url(pexels-riccardo-789380.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    width: 100%;
+    height: 100vh; 
+    overflow-y: hidden;
+
+}
+
+.dropdown{
+
+    transform: translateY(10px);
+}
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+ 
+.custom-dropdown .dropdown-toggle {
+    border-radius: 8px;
+}
+
+.custom-dropdown .dropdown-menu {
+    border-radius: 8px;
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #52575C; 
+    border-radius: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background-color: #6C757D; 
+}
+.scrollbar2::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+}
+
+.scrollbar2::-webkit-scrollbar-thumb {
+    background-color: #52575C; 
+    border-radius: 10px;
+}
+
+.scrollbar2::-webkit-scrollbar-track {
+    background-color: #6C757D; 
+}
+
+
+.dropdown-menu.scrollbar {
+    max-height: 200px; 
+    overflow-y: auto; 
+}
+
+.cards{
+    margin-top: 140px;
+    justify-content: center;
+    background: transparent;
+    border-top: none;
+    padding-bottom: 20%;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(6px);
+    border-radius: 10px; 
+  
+}
+.card1{
+height: 415px;
+}
+
+.know{
+    transform: translateY(150px);
+}
+.know2{
+    transform: translateY(60px);
+}
+.whole{
+    background: rgba(255, 255, 255, 0.01); 
+    backdrop-filter: blur(6px);
+    border-radius: 10px; 
+    height: 100vh;
+}
