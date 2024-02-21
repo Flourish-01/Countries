@@ -22,14 +22,12 @@ var dropdownItems = document.querySelectorAll(".dropdown-menu .dropdown-item");
 dropdownItems.forEach(function (item) {
   var itemText = item.textContent.toLowerCase();
   var isMatch = itemText.startsWith(inputVal); // Change this line
-
-  // Toggle the visibility based on the match
   item.style.display = isMatch ? "block" : "none";
 });
 
 });
 
-// Close dropdown when clicking outside
+
 document.addEventListener('click', function (event) {
 if (!countryInput.contains(event.target)) {
 document.querySelector('.dropdown-menu').classList.remove('show');
