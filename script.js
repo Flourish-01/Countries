@@ -20,12 +20,13 @@ var inputVal = countryInput.value.toLowerCase();
 var dropdownItems = document.querySelectorAll(".dropdown-menu .dropdown-item");
 
 dropdownItems.forEach(function (item) {
-var itemText = item.textContent.toLowerCase();
-var isMatch = itemText.includes(inputVal);
+  var itemText = item.textContent.toLowerCase();
+  var isMatch = itemText.startsWith(inputVal); // Change this line
 
-// Toggle the visibility based on the match
-item.style.display = isMatch ? "block" : "none";
+  // Toggle the visibility based on the match
+  item.style.display = isMatch ? "block" : "none";
 });
+
 });
 
 // Close dropdown when clicking outside
