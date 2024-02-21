@@ -76,6 +76,7 @@ body{
 }
 .card1{
 height: 415px;
+overflow-y: scroll;
 }
 
 .know{

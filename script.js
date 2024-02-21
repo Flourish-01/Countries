@@ -37,7 +37,7 @@ document.querySelector('.dropdown-menu').classList.remove('show');
 });
 
 class country {
-    constructor(name, flag, note, ){
+    constructor(name, flag, note, capital ){
         this.name = name
         this.flag = flag
         this.note = note
@@ -46,12 +46,12 @@ class country {
         contain.innerHTML = `
         <header class=" mx-auto">
         <h1 class="">${obj.flag}</h1>
-            <h3 class="text-center">
-                ${obj.name}
+            <h3 class="text-center" style="font-size:21px;">
+               Country Name : ${obj.name}
             </h3>
         </header>
         <div class="body">
-            ${obj.note}
+          <h1 style="display:inline; font-size:18px" class="mt-2">Brief description:</h1>  ${obj.note}
         </div> `
     }
 }
